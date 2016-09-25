@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Music Survey</title>
+		<link rel="stylesheet" type="text/css" href="survey.css">
+	</head>
+	<body>
+	<h1>Music Survey</h1>
+		<div>
+		<form action="http://www.markmurtha.com/csis128/readform.asp" method="get" id="surveyform">
+			First Name:<br> <input type="text" name="firstname"><br>
+			Last Name:<br> <input type="text" name="lastname"><br>
+			E-mail:<br> <input type="email" name="email"><br><br>
+			<fieldset>
+			<legend>Select your favorite types of music:</legend>
+			<input type="checkbox" name="genre1" value="Rap">Rap<br>
+			<input type="checkbox" name="genre2" value="Rock">Rock<br>
+			<input type="checkbox" name="genre3" value="Pop">Pop<br>
+			</fieldset><br>
+			<fieldset>
+			<legend>Select how often you purchase music:</legend>
+			<input type="radio" name="often" value="Weekly">Weekly<br>
+			<input type="radio" name="often" value="Monthly">Monthly<br>
+			<input type="radio" name="often" value="Never">Rarely or Never<br>
+			</fieldset>
+			<h3>Choose where you listen to music the most</h3>
+			<select size="3">
+				<option value="home">At home</option>
+				<option value="outside">Outside</option>
+				<option value="school">At school</option>
+				<option value="work">At work</option>
+			</select>
+		</form>
+		<br>
+		<h3>What role does music play in your life?</h3>
+		<textarea name="role" form="surveyform" rows="4" cols="60"></textarea><br><br>
+		<button type="submit" value="Submit">Submit</button>
+		<button type="reset" value="Reset">Reset</button>
+		</div>
+		<h4>David Pope - <a href="mailto:S1422548@student.mcckc.edu">S1422548@student.mcckc.edu</a>
+	</body>
+</html>
