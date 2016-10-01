@@ -12,3 +12,50 @@ h1 {
     border-width: 20px;
     border-radius: 10px;
 }
+
+nav {
+    font-size: 150%;
+    text-align: center;
+    border-bottom: solid;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div {
+    text-align: center;
+    background-color: black;
+    color: #e5e500;
+    padding: 20px;
+}
+
+.emailAndGenre {
+    text-decoration: underline;
+}
+
+.genre {
+    text-align: center;
+    font-weight: bold;
+}
+.center {
+    text-align:center;
+}
+
+.block {
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+}
