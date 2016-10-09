@@ -1,11 +1,11 @@
 body {
-    background-color: #e5e500;
+    background-color: black;
     font-family: Helvetica;
 }
 
 h1 {
     text-align: center;
-    color: black;
+    color: #e5e500;
     padding: 20px;
     font-size: 300%;
     border-style: solid;
@@ -17,6 +17,7 @@ nav {
     font-size: 150%;
     text-align: center;
     border-bottom: solid;
+    border-bottom-color: #e5e500;
 }
 
 a {
@@ -24,11 +25,11 @@ a {
 }
 
 a:link {
-    color: black;
+    color: #e5e500;
 }
 
 a:visited {
-    color: black;
+    color: #e5e500;
 }
 
 a:hover {
@@ -37,8 +38,8 @@ a:hover {
 
 div {
     text-align: center;
-    background-color: black;
-    color: #e5e500;
+    background-color: #e5e500;
+    color: black;
     padding: 20px;
 }
 
@@ -52,10 +53,25 @@ div {
 }
 .center {
     text-align:center;
+    color: #e5e500;
 }
 
 .block {
     margin-left:auto;
     margin-right:auto;
     display: block;
+}
+
+p {
+    color: #e5e500;
+}
+
+h3 {
+    color: #e5e500;
+}
+
+form {
+    color: #e5e500;
+    border: 2px solid #e5e500;
+    padding: 5px;
 }
